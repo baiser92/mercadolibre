@@ -12,8 +12,6 @@ export class DetailsComponent implements OnInit {
   constructor(private router: Router,  private productsService:ProductsService) { 
     console.log(this.router.url);
     let id = this.router.url.split('/items/')[1];
-    let p = this.router.url.split('/items/')[1]
- 
     this.productsService.getDetailProduct(id).subscribe(
       result => {
        this.resultSearch = result.data.item;

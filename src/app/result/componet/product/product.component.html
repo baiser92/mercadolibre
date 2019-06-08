@@ -12,8 +12,8 @@
                   <img [hidden]="item.free_shipping === false" src="/assets/img/ic_shipping.png" />
               </div> 
               <span class="text" (click)="getDetails(item.id)">{{item.title}}</span>
-              <span class="unic"[hidden]="item.sold_quantity === 0"> Quedan: {{item.sold_quantity}}</span>
-              <span class="unic"[hidden]="item.sold_quantity  > 1">Completo Unico!</span>
+             <!-- <span class="unic"[hidden]="item.sold_quantity === 0"> Quedan: {{item.sold_quantity}}</span> -->
+              <span class="unic">Completo Unico!</span>
              
           </div>
           <div class="col-md-3 ubication">

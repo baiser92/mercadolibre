@@ -1,0 +1,15 @@
+<header id="site-header">
+	<div class="container">
+		<a class="logo" href="/">
+			<img src="/assets/img/Logo_ML.png" alt="Brand" />
+		</a>
+    <div class="input-group mb-3" id="srch-term">
+      <input type="text" class="form-control" [(ngModel)]="searchInput" (keydown.enter)="search()" placeholder="Nunca dejes de buscar">
+      <div class="input-group-append" (click)="search()">
+        
+        <span class="input-group-text">	<img src="/assets/img/ic_Search.png" alt="Brand" /></span>
+      </div>
+    </div>
+  </div>
+ 
+</header>

@@ -1,0 +1,43 @@
+#container-product{
+    display: flex;
+    padding-top: 16px;
+}
+
+.container-img-product{
+    margin-left: 16px;
+}
+.img-product{
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+}
+
+.container-detail-product{
+    padding-left: 16px;
+    width: 100%;
+}
+
+#description{
+    padding-top: 2%;
+}
+
+.price{
+    font-size: 24px;
+    padding-right: 2%
+}
+
+.container-price{
+    padding-bottom: 36px;
+}
+
+.ubication{
+    padding-top: 32px;
+    font-size: 12px;
+}
+.unic{
+    display: -webkit-box;
+}
+
+.unic, .text{
+    font-size:12px
+}

@@ -1,0 +1,26 @@
+<div class="container-details" [hidden]="resultSearch.length === 0">
+  <div class="container-fluid data">
+   <div class="data-producr">
+     <div>
+        <img class="img-product-detail" src="{{resultSearch.picture}}"  />
+        <div class="description-product">
+          <span class="description-title">Descripción del producto</span>
+          <p class="description">{{resultSearch.description}}</p>
+
+        </div>
+     </div>
+   </div>
+
+   <div class="container-info-product">
+      <span class="sold_quantity">Nuevo- {{resultSearch.sold_quantity}} vendidos</span> <br>
+      <span class="title-product">{{resultSearch.title}}</span> <br>
+      <span class="price-details" [hidden]="resultSearch.length === 0" >$ {{resultSearch.price.amount}}</span> <br>
+      <div class="container-Shopping-btn">
+          <button type="button"  class="btn btn-primary shoopping-btn">Comprar</button>
+      </div>
+      
+   </div>
+
+  </div>
+
+</div>

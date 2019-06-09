@@ -42,3 +42,12 @@
 .unic, .text{
     font-size:12px
 }
+
+
+  @media (max-width: 750px) {
+    #container-product {
+        display: block;
+    } 
+  
+   
+  }

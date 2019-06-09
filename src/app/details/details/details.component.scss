@@ -60,4 +60,33 @@
 
 .description-product{
     padding-left: 32px;
-}
+} 
+
+@media (max-width: 750px) {
+
+    .img-product-detail {
+        width: 100%;
+    }
+
+    .description {
+        width: 100%;
+        overflow: auto;
+        white-space: unset;
+        text-overflow: ellipsis;
+        height: 200px;
+    }
+
+    .description-title{
+        font-size: 15px;
+    }
+
+    .data{
+        display: block; 
+    }
+
+    .container-info-product {
+        width: 100%;
+        text-align: -webkit-center;
+    }
+   
+  }

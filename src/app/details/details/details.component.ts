@@ -10,16 +10,15 @@ import { Detail } from '../../models/detail.model';
 })
 export class DetailsComponent implements OnInit {
   resultSearch: Array<Detail> = [];
+  priceProduct:any ="";
   constructor(private router: Router,  private productsService:ProductsService) { 
   }
 
   ngOnInit() {
-    console.log(this.resultSearch.length);
     let id = this.router.url.split('/items/')[1];
     this.productsService.getDetailProduct(id).subscribe(
       result => {
        this.resultSearch = this.getResult(result);
-       console.log(this.resultSearch);
       },
       error => {
         console.log('There was an error: ', error);
@@ -28,8 +27,8 @@ export class DetailsComponent implements OnInit {
   }
 
   getResult (result) {
-    console.log(result.data);
-  return result.data.item;
+    this.priceProduct = result.data.item.price.amount;
+    return result.data.item;
 
   }
 

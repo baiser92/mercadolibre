@@ -1,7 +1,7 @@
-<ol class="breadcrumb">
-    <li *ngFor="let breadcrumb of breadcrumbs">
+<ol class="breadcrumb" [hidden]="breadcrumbs.length === 0">
+    <li>
       <span>
-        {{ breadcrumb }}
+        {{ breadcrumbs}}
       </span>
     </li>
-  </ol>
+  </ol> 

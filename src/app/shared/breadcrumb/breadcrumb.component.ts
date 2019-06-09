@@ -14,12 +14,7 @@ export class BreadcrumbComponent implements OnInit, OnChanges {
   }
 
   ngOnChanges(changes) {
-
-    console.log('cambioooo');
-    console.log(changes);
-    console.log(this.breadcrumb);
     this.breadcrumbs = this.breadcrumb === undefined ? [] : this.breadcrumb.join(" > ");
-    console.log(this.breadcrumbs);
   }
 
 }

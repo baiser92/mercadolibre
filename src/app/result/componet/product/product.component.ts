@@ -33,6 +33,7 @@ export class ProductComponent implements OnInit {
 
   getResult(result){
     result.data.hasOwnProperty('categories') ? this.breadcrumbCategories.emit(result.data.categories) :  this.breadcrumbCategories.emit([]);
+   
     return result.data.items;
   }
   getDetails(id){

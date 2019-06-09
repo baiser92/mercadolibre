@@ -75,13 +75,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
-            "stylePreprocessorOptions": {
-              "includePaths": [
-                "../node_modules/bootstrap/scss"
-              ]
-            },
             "styles": [
-              "node_modules/bootstrap/scss",
               "src/styles.scss"
             ],
             "scripts": [],

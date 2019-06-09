@@ -9,7 +9,7 @@ import {ProductsService} from '../../service/products.service';
 })
 export class ResultComponent implements OnInit {
   @Output() public breadcrumb = new EventEmitter();
-  public SendBreadcrumb:any;
+  public SendBreadcrumb:any = [];
   constructor(private router: Router, private productsService:ProductsService) {
 
    }

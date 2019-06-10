@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+import { ProductComponent } from './result/componet/product/product.component';
+import { Router } from '@angular/router';
+
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +10,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'mercadolibre';
+  title = 'mercadolibre'; 
+ 
+
+  constructor(private router: Router){}
+
+  
+
+
 }

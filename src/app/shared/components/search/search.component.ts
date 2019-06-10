@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Location } from '@angular/common';
+import { Output } from '@angular/core';
+import { EventEmitter } from '@angular/core';
 @Component({
   selector: 'app-search',
   templateUrl: './search.component.html',
@@ -8,14 +10,14 @@ import { Location } from '@angular/common';
 })
 export class SearchComponent implements OnInit {
   searchInput: string = '';
-  constructor(private router: Router, private location: Location) { }
+  constructor(private router: Router) { }
 
   ngOnInit() { 
 
    
   }
   search(){
-    console.log(this.searchInput);
+  //  this.router.navigated = false;
     this.router.navigate(['/items'], { queryParams: { search: this.searchInput} });
     
   }

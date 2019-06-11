@@ -1,7 +1,9 @@
+@import  '../../../../assets/sass/_variables';
+
 #container-product{
     display: flex;
     padding-top: 16px;
-    background:white;
+    background: $blanco-base;
 }
 
 .container-img-product{

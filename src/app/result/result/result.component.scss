@@ -1,9 +1,11 @@
+@import  '../../../assets/sass/_variables';
+
 .container-result{
     align-items: center;
     justify-content: center;
-    background: white;
+    background: $blanco-base;
 }
 
 .container-product{
-    background: white;
+    background: $blanco-base;
 }

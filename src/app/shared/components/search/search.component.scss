@@ -1,3 +1,5 @@
+@import  '../../../../assets/sass/_variables';
+
 .container-search{
   display: flex;
   align-items: center;
@@ -14,16 +16,16 @@
   }
   
   #site-header {
-    background-color: #FFE600;
-    color: white;
+    background-color: $amarillo-base;
+    color: $blanco-base;
   }
   header#site-header a {
-    color: white;
+    color: $blanco-base;
     text-decoration: none;
     transition: 0.3s;
   }
   header#site-header a:hover {
-    background-color: #FFE600;
+    background-color: $amarillo-base;
   }
   header#site-header {
     display: flex;

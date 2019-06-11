@@ -1,6 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
+//@charset 'utf-8';
+
+
+
+@import
+  './assets/sass/_variables';
+   
+
 body{
-    background: #eeee;
+    background: $gris-base;
 }

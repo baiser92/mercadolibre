@@ -1,6 +1,8 @@
+@import  '../../../assets/sass/_variables';
+
 .container-details{
     padding-top: 16px;
-    background:white;
+    background:$blanco-base;
 }
 .img-product-detail{
     width: 680px;
@@ -46,7 +48,7 @@
 
 .description{
     font-size: 16px;
-    color: #999999;
+    color: $girs-medio-base;
     width: 680px;
     text-align: justify;
     padding-top: 32px;

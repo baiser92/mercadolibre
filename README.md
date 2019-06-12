@@ -1,7 +1,7 @@
 # Mercadolibre
 
 El cliente esta desarrollado en Angular
-EL backend está desarrollado en NODEJS  (Express)
+EL backend está desarrollado en NODEJS (Express)
 
 Pasos para instalar:
 
@@ -11,6 +11,6 @@ Pasos para instalar:
    te indica en que puerto está corriendo por defecto siempre es  http://localhost:4200
 
  Instalación para el backend
-1. Nos ubicamos en la carpeta bacakend
+1. Nos ubicamos en la carpeta backend
 2. procedemos a ejecutar npm install
 3. npm start para correr  
